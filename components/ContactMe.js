@@ -111,7 +111,7 @@ export default function ContactMe() {
           </div>
 
           <input
-            className="lg:w-[500px] w-[300px] text-center dark:text-white bg-transparent border-r-0 border-t-0 border-l-0 dark:border-white dark:border-opacity-50 2xl:text-xl   tracking-widest focus:bg-transparent"
+            className="lg:w-[500px] w-[280px] text-center dark:text-white bg-transparent border-r-0 border-t-0 border-l-0 dark:border-white dark:border-opacity-50 2xl:text-xl   tracking-widest focus:bg-transparent"
             type="text"
             name="user_name"
             value={username}
@@ -125,7 +125,7 @@ export default function ContactMe() {
             placeholder="Enter Your Email addeess"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
-            className="lg:w-[500px] w-[300px] text-center    2xl:text-xl dark:text-white bg-transparent border-r-0 border-t-0 border-l-0 darK:border-white dark:border-opacity-50   tracking-widest focus:outline-none "
+            className="lg:w-[500px] w-[280px] text-center    2xl:text-xl dark:text-white bg-transparent border-r-0 border-t-0 border-l-0 darK:border-white dark:border-opacity-50   tracking-widest focus:outline-none "
           ></input>
 
           <textarea
@@ -133,7 +133,7 @@ export default function ContactMe() {
             name="message"
             value={textarea}
             onChange={(e) => setTextarea(e.target.value)}
-            className="focus:text-start lg:w-[500px] w-[300px]  2xl:text-xl text-center dark:text-white text-black bg-transparent border-r-0 border-t-0 border-l-0 dark:border-white dark:border-opacity-50   tracking-widest focus:outline-none focus:outline-transparent"
+            className="focus:text-start lg:w-[500px] w-[280px]  2xl:text-xl text-center dark:text-white text-black bg-transparent border-r-0 border-t-0 border-l-0 dark:border-white dark:border-opacity-50   tracking-widest focus:outline-none focus:outline-transparent"
           ></textarea>
           <div className="md:flex md:justify-between flex flex-col justify-center items-center dark:text-white md:w-[500px]  w-[350px] dark:text-opacity-50 ">
             <div className="flex ">
